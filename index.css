@@ -1,0 +1,58 @@
+/* Design */
+
+header {
+    font-family: 'IM Fell Great Primer SC', serif;
+    text-align: center;
+    padding: 40px;
+    background: black;
+    color: white;
+    font-size: 60px;
+}
+
+#container {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: larger;
+    width: 100%;
+    margin: auto;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 20% 5% 75%;
+}
+
+ul a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    background-color: #49A8E0;
+}
+
+ul {
+    list-style-type: none;
+    padding-top: 10%;
+}
+
+#left{
+    background-color: black;
+}
+
+img{
+    box-shadow: lightblue 5px 0px 10px ;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.description {
+    padding-top: 15%;
+}
+
+#no-top-padding
+{
+    padding-top: 0px;
+}
